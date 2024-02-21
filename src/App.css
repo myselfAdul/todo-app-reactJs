@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
 }
-
+ 
 .h1{
   background-color: rgb(43, 43, 43);
   color: rgb(255, 255, 255);
@@ -42,12 +42,9 @@
   border-radius: 4px;
   padding: 5px;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  /* overflow: hidden; */
-  /* flex-wrap: wrap; */
 
 }
+
 
 
 .todo:hover{
@@ -99,7 +96,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 
-
 }
 
 .form-field textarea{
@@ -118,17 +114,12 @@
   /* overflow: hidden; */
 
 }
+
+
 .desc{
-  color: antiquewhite;
-  font-size: large;
-  /* word-wrap: break-word; */
-  /* white-space: pre-line;
-  word-wrap    : break-word;
-  overflow-wrap: break-word; */
-
+  inset-inline: 100%;
+  overflow-wrap: break-word;
 }
-
-
 .add-btn{
   display: flex;
   justify-content: center;
